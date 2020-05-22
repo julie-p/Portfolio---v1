@@ -217,6 +217,7 @@ li {
 .landing-text h6 {
     font-size: 3rem;
     font-weight: lighter;
+    opacity: .7;
 }
 
 /* About section */
@@ -258,6 +259,10 @@ li {
 
 .about-details {
     flex: 1;
+}
+
+.about-details p {
+    text-align: center;
 }
 
 .social-media {
@@ -303,6 +308,19 @@ li {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 2rem -2px 2rem 0;
+}
+
+.skill h6 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    opacity: .7;
+    letter-spacing: .2rem;
+    margin-bottom: 2rem;
+}
+
+.skill p {
+    font-size: 1.7rem;
+    line-height: 2.3rem;
 }
 
 .icon-container {
@@ -406,7 +424,7 @@ li {
     position: relative;
 }
 
-.up a {
+.up {
     position: absolute;
     width: 5rem;
     height: 5rem;
@@ -416,6 +434,7 @@ li {
     border-radius: 100%;
     display: flex;
     animation: pulse 2s infinite;
+    cursor: pointer;
 }
 
 .up i {
@@ -455,7 +474,7 @@ li {
     }
 
     .landing-text h6 {
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
 
     .nav-list {
@@ -508,7 +527,7 @@ li {
     }
 
     .landing-text h6 {
-        font-size: 1.4rem;
+        font-size: 1.7rem;
     }
 
     .nav-link {
