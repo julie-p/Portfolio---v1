@@ -471,6 +471,7 @@ li {
 
     .landing-text h1 {
         font-size: 15rem;
+        font-family: 'The Historia Demo', 'Nothing You Could Do', cursive, sans-serif;
     }
 
     .landing-text h6 {
@@ -521,6 +522,10 @@ li {
 }
 
 @media screen and  (max-width: 600px) {
+
+    .landing-text h1 {
+        font-family: 'The Historia Demo', 'Nothing You Could Do', cursive, sans-serif;
+    }
 
     .profile-img img {
         width: 300px;
