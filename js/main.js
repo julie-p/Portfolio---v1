@@ -9,19 +9,19 @@ $(document).ready(function () {
         $('.menu-toggler').removeClass('open');
         $('.top-nav').removeClass('open');
     });
-    //Smooth scroll
+    //Smooth scroll down
     $('nav a[href*="#"]').on('click', function () {
         $('html, body').animate( {
             scrollTop: $($(this).attr('href')).offset().top - 100
         }, 2000);
     });
-
+    //Smooth scroll up  
     $('#up').on('click', function () {
         $('html, body').animate( {
             scrollTop: 0
         }, 2000);
     });
-
+    //Initialisation AOS
     AOS.init({
         easing: 'ease',
         duration: 1800,
