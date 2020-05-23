@@ -577,3 +577,13 @@ li {
     }
 
 }
+
+@media screen and  (min-width: 400px) { 
+    
+    .skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
