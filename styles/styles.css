@@ -294,10 +294,10 @@ li {
 /* Skills section */
 
 .my-skills {
-    margin: 10rem 10rem 0 10rem;
+    margin: 0 5rem 0 5rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    grid-gap: 2.5rem;
+    grid-gap: 5rem;
     text-align: center;
 }
 
