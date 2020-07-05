@@ -254,7 +254,7 @@ li {
 .profile-img {
     flex: 1;
     margin-right: 5rem;
-} 
+}
 
 .profile-img img {
     width: 400px;
@@ -360,6 +360,20 @@ li {
 
 .portfolio-img {
     flex: 1;
+    position: relative;
+    z-index: 0;
+}
+
+.portfolio-img::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(53, 10, 79, .7), rgba(53, 10, 79, .5));
+    z-index: 1;
+    opacity: 0.5;
 }
 
 .portfolio-description {
