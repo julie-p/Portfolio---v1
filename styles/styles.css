@@ -364,7 +364,7 @@ li {
     z-index: 0;
 }
 
-.portfolio-img::before{
+/* .portfolio-img::before{
     content: '';
     position: absolute;
     top: 0;
@@ -374,7 +374,7 @@ li {
     background-image: linear-gradient(to right, rgba(53, 10, 79, .7), rgba(53, 10, 79, .5));
     z-index: 1;
     opacity: 0.5;
-}
+} */
 
 .portfolio-description {
     flex: 1;
