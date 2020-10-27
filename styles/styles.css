@@ -393,6 +393,11 @@ li {
     opacity: 0.3;
 }
 
+.portfolio-description span {
+    padding: 10px;
+    font-size: 20px;
+}
+
 .portfolio-description .cta {
     display: inline-block;
     margin-top: 2.5rem;
