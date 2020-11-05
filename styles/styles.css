@@ -113,7 +113,7 @@ header {
     height: 100vh;
     position: fixed;
     top: -100vh;
-    z-index: 50; /* Important pour que le text ne reste pas sur la nav quand celle ci est ouverte*/
+    z-index: 50; /* Important pour que le texte ne reste pas sur la nav quand celle ci est ouverte*/
     background-color: #16162d;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
