@@ -601,8 +601,7 @@ li {
 
 }
 
-@media screen and  (min-width: 400px) { 
-    
+@media screen and (min-width: 400px) { 
     .skills {
         display: flex;
         flex-direction: column;
