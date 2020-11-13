@@ -1,3 +1,10 @@
+/* Loader */
+let spinnerWrapper = document.querySelector('.spinner-wrapper');
+
+window.addEventListener('load', function() {
+    spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+});
+
 $(document).ready(function () {
     //Ouvre le menu
     $('.menu-toggler').on('click', function () {
