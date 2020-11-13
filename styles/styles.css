@@ -20,6 +20,10 @@ body {
     background-size: cover;
 }
 
+.wrapper {
+    overflow-x: hidden;
+}
+
 section {
     padding: 6rem 0;
 }
@@ -226,7 +230,6 @@ li {
 }
 
 /* About section */
-
 .about .container {
     display: flex;
     align-items: center;
@@ -292,7 +295,6 @@ li {
 }
 
 /* Skills section */
-
 .my-skills {
     margin: 0 5rem 0 5rem;
     display: grid;
