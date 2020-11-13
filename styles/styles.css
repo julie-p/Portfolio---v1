@@ -1,4 +1,10 @@
 /* Global Styles */
+@font-face {
+    font-family: 'The Historia Demo';
+    src:url('../The-Historia-Demo/TheHistoriaDemo.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {
     margin: 0;
